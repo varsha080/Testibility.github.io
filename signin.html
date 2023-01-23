@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestingHub.Sign in</title>
+    <link rel="stylesheet" href="./main.css">
+    <!-- <link rel="stylesheet" href="./media-queries.css"> -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-queries.css">
+</head>
+<body>
+
+        <div class="upper-head company-logo">
+            <a class="company-logo" href="./index.html">
+                <img src="./assets/asset 1.png">
+            </a>
+        </div>
+ 
+        <div class="details">
+            <div class="container pop-up-content flex " id="pop-up-content">
+                <div class="close-pop-up ">
+
+                    <button class="hover-link social-media-links" id="close-pop-up"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                 <div class="pop-up-text">
+
+                     <h2 style="margin: auto 20px;">You have signed in successfully</h2>
+                 </div>
+                
+                 <a href="./index.html"> <button class="pri-btn home-page-btn">Back to home page</button></a>
+
+            </div>
+            <div class="container sign-in-info flex " id="sign-in-body">
+                  <h2>👋 Welcome back</h2>
+                  <form class="input flex sign-up " action="" method="post">
+                  <label for="email" class="required">Email Address:</label>
+                  <input type="email" name="email" id="sign-in-email" formmethod="post" required/>
+                  <label for="password" class="required">Password: </label>
+                  <input type="password" name="password" id="sign-in-pass" formmethod="post" required/>
+                  <a href="#" class="hover-link sign-in-link">Forgot your Password?</a>
+                  <button  class="pri-btn sign-in-sub" id="show-pop-up">Sign In</button>
+                  </form>
+                  
+                  <div class="signin-footer flex" style="gap: 20px; padding: 10px;">
+                  <h4>Don't have a account? </h4>
+                  <a href="./signup.html" class="hover-link sign-in-link" style="text-decoration: underline; font-size: 1.2rem;">Sign up</a>
+                  </div>
+            </div>
+
+        </div>
+        <script src="https://kit.fontawesome.com/8e08b584d8.js" crossorigin="anonymous"></script>
+        <script  src="./pop-up.js" defer></script>
+    </body>
+</html>

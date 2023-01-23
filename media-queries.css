@@ -1,0 +1,347 @@
+/* -------------------------------------MEDIA QUERIES----------------------------------------------- */
+@media  screen and (max-width: 991px) {
+   .h3{
+     font-size: 1.2rem;
+   }
+   .h1{
+    font-size: 2.5rem;
+   }
+   
+    .nav-toggle{
+    display: block;
+    margin-right: 20px;
+   }
+    
+   .main-nav{
+    overflow: initial;
+   }
+   .nav-links{
+    /* display: none; */
+    position: absolute;
+    background-color: white;
+    left:-100%;
+    top:100%;
+    width: 100%;
+    padding-block: 20px;
+    transition: 0.2s ease-in-out;
+   }
+    
+   .nav-links.active{
+    left:0;
+   }
+   .nav-links ul{
+    flex-direction: column;
+   }
+   .example-area{
+    gap:20px;
+   }
+   .example-card{
+    width: calc(50% - 10px);
+    height: 200px;
+   }
+
+   .cta{
+    margin: 20px 0;
+   }
+
+   .contact-left{
+    width:50%;
+ }
+
+ /* .input{
+    /* max-width: 50%; */
+    /* width: 80%; */
+ /* */ 
+
+ .sign-up-input{
+    width: 80%;
+ }
+
+ .main-sec{
+    flex-direction: column;
+ }
+
+ .sign-in-info{
+    padding: 20px var(--padding-inline);
+ }
+
+  .sign-up{
+   width: 60vw;
+ }
+ .get-in-touch-links{
+      font-size: 1.2rem;
+     }
+
+     .get-in-touch-links h1{
+      font-size: 2.3rem;
+     }
+
+   .pop-up-content{
+      width: 45vw;
+      height: 260px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .pop-up-text{
+      margin: 10px;
+   }
+
+   .thank-you-page{
+      margin-top: 30%;
+      
+   }
+}
+
+@media screen and (max-width:780px){
+    h3{
+       font-size:  1.1rem;
+    }
+    
+    .header-sec{
+        flex-direction: column-reverse;
+    }
+
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .features-card{
+        width: calc(50% - 15px);
+
+    }
+    
+    .features-area{
+        gap:30px;
+    }
+    .big-feature-container{
+        flex-direction: column;
+    }
+
+    #second-big-feature{
+        flex-direction: column-reverse;
+    }
+    
+    .cta-area{
+        flex-direction: column-reverse;
+    }
+    
+     .footer{
+        flex-direction: column;
+        gap:40px;
+        align-items: center;
+     }
+
+     .link-col{
+        align-items: center;
+     }
+
+     .social-page{
+        flex-direction: column-reverse;
+     }
+
+     .pricing{
+        flex-direction: column-reverse;
+     }
+
+     .pricing-right-image img{
+        margin: 0 20px;
+     }
+
+     .input{
+        /* max-width: 50%; */
+        width: 60%;
+     }
+    
+     .sign-up-input{
+        width: 80%;
+        padding: var(--padding-inline);
+     }
+      
+     .sign-up{
+       min-width: 70vw;
+     }
+     .sign-in-info{
+        padding: 20px var(--padding-inline);
+     }
+
+     .help-card-img img{
+        width: 120px;
+        height: 95px;
+     }
+
+     .get-in-touch-links{
+      font-size: 1.1rem;
+     }
+
+     .get-in-touch-links h1{
+      font-size: 2rem;
+     }
+     .contact-us{
+      flex-direction: column-reverse;
+     }
+
+     .contact-left{
+      width: 80vw;
+     }
+      
+     .pop-up-content{
+      width: 55vw;
+      height: 250px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+     .pop-up-text h2{
+      
+       font-size: 1.5rem;
+     }
+
+     .thank-you-page{
+      background-color: url('./assets/asset\ 34.svg');
+      margin-top: 50%;
+     }
+    
+}
+
+
+@media screen and (max-width:478px){
+    :root{
+        --padding-inline:10px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    h3{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    .features-card{
+        width: 100%;
+        
+    }
+
+    .feature-btn{
+        margin-top: 5px;
+    }
+
+    .features-area{
+        gap:30px;
+    }
+    
+    .big-features{
+        padding: 30px var(--padding-inline);
+    }
+    .example-card{
+        width: 100%;
+    }
+
+    .examplebtn{
+        margin-top: 10px;
+    }
+    footer{
+        padding: 30px var(--padding-inline);
+    }
+
+    .input{
+        /* max-width: 50%; */
+        width: 80%;
+     }
+    
+     .sign-up-input{
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+     }
+     
+     .upper-head{
+        padding: 5px var(--padding-inline);
+     }
+
+     .sign-link{
+        display: none;
+     }
+     .patnerss-item{
+        max-width: 80%;
+        height: 110px;
+        width: 130px;
+     }
+
+     .sign-in-info{
+        padding: 20px var(--padding-inline);
+        max-width: 80vw;
+     }
+     
+     .main-right{
+        width: 100%;
+     }
+
+     .help-cards{
+        margin: 10px;
+        gap:20px;
+     }
+
+     .help-out{
+        padding: 10px;
+     }
+
+     .big-para{
+        font-size:1.1rem;
+     }
+
+     .contact-head{
+      flex-direction: column;
+     }
+
+     .contact-head-link{
+      flex-direction: column;
+      gap:15px
+     }
+
+     .get-in-touch-links{
+      font-size: 0.9rem;
+     }
+
+     .get-in-touch-links h1{
+      font-size: 1.5rem;
+     }
+
+     .contact-left{
+      width: 100%;
+     }
+     
+     .pop-up-content{
+      width: 55vw;
+      height: 200px;
+     
+     }
+     .pop-up-text h2{
+      font-size: 1rem;
+     }
+     .home-page-btn{
+      width: 80%;
+      font-size: 0.7rem;
+     }
+
+     .close-pop-up button{
+        font-size: 0.9rem;
+        padding: 0px 2px;
+     }
+
+     .tq-page{
+      background-position: cover;
+
+     }
+
+     .thank-you-page{
+      margin-top: 80%;
+     }
+}

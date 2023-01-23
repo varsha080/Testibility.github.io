@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestingHub.Sign Up</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-queries.css">
+</head>
+<body>
+    <div class="upper-head company-logo" >
+        <div class="container flex " style="justify-content: space-between;">
+            <a class="company-logo" href="./index.html">
+                <img src="./assets/asset 1.png">
+            </a>
+        <a class="hover-link sign-link" href="./signin.html" style="padding: 5px; font-size: 1.2rem;">Sign In</a>
+        </div>
+    </div>
+     
+    <div class="container pop-up-content flex " id="pop-up-signin">
+        <div class="close-pop-up ">
+
+            <button class="hover-link social-media-links" id="close-pop-up-signin"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+         <div class="pop-up-text">
+
+             <h2 style="margin: auto 20px;">You have signed in successfully</h2>
+         </div>
+        
+         <a href="./index.html"> <button class="pri-btn home-page-btn">Back to home page</button></a>
+
+    </div>
+    <div class="main-section" id="sign-up-body">
+        <div class="main-sec flex">
+         <div class="sign-up-form">
+            <div class=" container sign-in-info flex">
+                <h2 style="text-align:center; justify-content: center;">👋 Welcome to world of TestingHub</h2>
+                <form class="input sign-up-input flex sign-up" action="" method="post">
+                <label for="name" class="required">Name:</label>
+                <input type="name" name="name" id="sign-up-name" required/>
+                <label for="org" >Organisation</label>
+                <input type="org" name="org"/>
+                <label for="email" class="required">Email Address:</label>
+                <input type="email" name="email" id="sign-up-email" required/>
+                <label for="password" class="required">Password: </label>
+                <input type="password" name="password" id="sign-up-password" required/>
+                <div class="terms-cond flex">
+                <input type="checkbox" name="cond" id="cond" required/>
+                <h4 for="cond">You agree to all </h4>
+                <a href="#" class="hover-links" >Terms and Conditions</a>
+                </div>
+                <button type="submit" class="pri-btn sign-in-sub" id="show-pop-up-signin">Sign Up</button>
+                </form>
+                <div class="signin-footer flex" style="gap: 20px; padding: 10px;">
+                <h4>Already have a account? </h4>
+                <a href="./signin.html" class="hover-link" style="text-decoration: underline; font-size: 1.2rem;">Sign In</a>
+                </div>
+          </div>
+         </div>
+         <div class="main-right">
+            <h2 style="font-weight: 100; text-align: center;" class="full-text">Join over 1 million designers, marketer and UX professionals who trust US!</h2>
+            <div class="patners flex">
+                <img src="./assets/asset 3.png"class="patnerss-item">
+                <img src="./assets/asset 4.png"class="patnerss-item">
+                <img src="./assets/asset 5.png" class="patnerss-item">
+                <img src="./assets/asset 6.png"class="patnerss-item">
+                <img src="./assets/asset 7.png"class="patnerss-item">
+                <img src="./assets/asset 8.svg"class="patnerss-item">
+                <img src="./assets/asset 9.png"class="patnerss-item">
+                <img src="./assets/asset 19.png"class="patnerss-item">
+                <img src="./assets/asset 22.png"class="patnerss-item">
+                <!-- <img src="./assets/microsoft.png"class="patnerss-item" width="150px" height="95px"> -->
+            </div>
+         </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8e08b584d8.js" crossorigin="anonymous"></script>
+    <script  src="./sign-up-popup.js" defer></script>
+</body>
+</html>
